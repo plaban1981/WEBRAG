@@ -1,0 +1,11 @@
+chromadb
+langchain
+langchain-groq
+beautifulsoup4
+python-dotenv
+streamlit
+streamlit-chat
+requests
+scrapegraphai
+nest_asyncio 
+crawl4ai
