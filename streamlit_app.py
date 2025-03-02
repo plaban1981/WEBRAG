@@ -1,6 +1,12 @@
 import streamlit as st
 from rag_app import WebRAG
 import time
+import os
+st.write("GROQ_API_KEY:", st.secrets["GROQ_API_KEY"])
+st.write(
+    "Has environment variables been set:",
+    os.environ["GROQ_API_KEY"] == st.secrets["GROQ_API_KEY"],
+)
 
 # Set page configuration
 st.set_page_config(
