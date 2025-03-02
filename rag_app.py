@@ -52,7 +52,7 @@ class WebRAG:
         encode_kwargs = {"normalize_embeddings": True}
         
         self.embeddings = HuggingFaceBgeEmbeddings(
-            model_name=r"C:\Users\PLNAYAK\Documents\New_Frontiers\claims_doc_ai\models\BAAI",
+            model_name="BAAI/bge-base-en-v1.5",
             model_kwargs=model_kwargs,
             encode_kwargs=encode_kwargs
         )
